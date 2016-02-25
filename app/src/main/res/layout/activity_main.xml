@@ -12,6 +12,23 @@
 
     <TextView
         android:text="Hello World!"
+        android:id="@+id/helloworld_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorAccent"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_below="@id/helloworld_text">
+
+        <TextView
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:background="@drawable/rounded_corner"
+            android:gravity="center" />
+
+        </RelativeLayout>
+
 </RelativeLayout>
